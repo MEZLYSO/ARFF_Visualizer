@@ -44,7 +44,7 @@ function App() {
 
     try {
       setLoading(true)
-      const resp = await axios.post('', formData, {
+      const resp = await axios.post('https://arff-visualizer.onrender.com/api/load', formData, {
         headers: { 
           'Content-Type': 'multipart/form-data',
           'Accept': 'application/json',
