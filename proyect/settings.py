@@ -25,6 +25,8 @@ SECRET_KEY = 'django-insecure-lxj96b=6%k@s_ls@)pr+$q6#6zh0%$#mdzyl8j(l%3+_x_q1m!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+ALLOWED_HOSTS = ['arff-visualizer.onrender.com', 'localhost', '127.0.0.1']
+
 # CORS settings
 CORS_ALLOW_ALL_ORIGINS = True
 
