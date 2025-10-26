@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-lxj96b=6%k@s_ls@)pr+$q6#6zh0%$#mdzyl8j(l%3+_x_q1m!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'arff-visualizer.onrender.com']
 

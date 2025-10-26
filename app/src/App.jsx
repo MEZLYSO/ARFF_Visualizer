@@ -49,8 +49,7 @@ function App() {
           'Content-Type': 'multipart/form-data',
           'Accept': 'application/json',
         },
-        withCredentials: true,
-        timeout: 120000,
+        withCredentials: true
       })
 
       const data = resp.data
