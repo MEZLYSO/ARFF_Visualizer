@@ -28,11 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'arff-visualizer.onrender.com']
 
 # CORS settings
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
-    "https://arff-visualizer.onrender.com",
-]
+CORS_ALLOWED_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
