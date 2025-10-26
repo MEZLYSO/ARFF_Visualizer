@@ -44,7 +44,7 @@ function App() {
 
     try {
       setLoading(true)
-      const resp = await axios.post('/api/load', formData, {
+      const resp = await axios.post('', formData, {
         headers: { 
           'Content-Type': 'multipart/form-data',
           'Accept': 'application/json',
