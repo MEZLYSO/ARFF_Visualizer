@@ -3,6 +3,7 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.parsers import MultiPartParser, FormParser
 import arff
+import io
 
 @api_view(['POST'])
 @parser_classes([MultiPartParser, FormParser])

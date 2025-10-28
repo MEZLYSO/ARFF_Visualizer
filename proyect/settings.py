@@ -25,11 +25,12 @@ SECRET_KEY = 'django-insecure-lxj96b=6%k@s_ls@)pr+$q6#6zh0%$#mdzyl8j(l%3+_x_q1m!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['arff-visualizer.vercel.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['arff-visualizer.vercel.app','arff-visualizer.onrender.com', 'localhost', '127.0.0.1']
 
 # CORS settings - Allow Vercel preview domains
-CORS_ALLOWED_ORIGIN_REGEXES = [
-    r"^https://.*\.vercel\.app$",
+CORS_ALLOWED_ORIGIN= [
+    'arff-visualizer.vercel.app',
+    'arff-visualizer.onrender.com'
 ]
 CORS_ALLOW_CREDENTIALS = True
 
