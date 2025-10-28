@@ -27,9 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['arff-visualizer.vercel.app', 'localhost', '127.0.0.1']
 
-# CORS settings
-CORS_ALLOWED_ORIGINS = [
-    'https://arff-visualizer.vercel.app',
+# CORS settings - Allow Vercel preview domains
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://.*\.vercel\.app$",
 ]
 CORS_ALLOW_CREDENTIALS = True
 
