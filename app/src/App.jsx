@@ -36,7 +36,7 @@ function App() {
     try {
       setLoading(true)
       setDownloadUrl(null) // Limpiar URL de descarga anterior
-      const resp = await axios.post('http://127.0.0.1:8000/api/load', formData, {
+      const resp = await axios.post('https://arff-visualizer.onrender.com/api/load', formData, {
         headers: { 
           'Content-Type': 'multipart/form-data',
         },
