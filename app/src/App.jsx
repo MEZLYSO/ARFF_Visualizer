@@ -92,10 +92,6 @@ function App() {
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-2">
                 Carga tu archivo ARFF
               </h2>
-              <p className="text-blue-100 text-sm sm:text-base max-w-2xl">
-                Visualiza y analiza tus datos estructurados. Soporta archivos ARFF (Attribute-Relation File Format) 
-                con validación automática y visualización paginada.
-              </p>
             </div>
           </div>
 
